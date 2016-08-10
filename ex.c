@@ -1,10 +1,10 @@
 #include <sys/types.h>
 #include <stdio.h>
-#include <unistad.h>
+#include <unistd.h>
 
 int main(){
 
-	pid_t pid pid1;
+	pid_t pid, pid1;
 	pid = fork();
 	
 	if (pid < 0)	{
